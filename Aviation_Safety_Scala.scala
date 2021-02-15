@@ -1,4 +1,4 @@
-// agora carregamos em Dataframe o csv selecionado pelo metodo do object `datasets`
+
 val pathfile = "/home/romerito/Dropbox/tecnology/bigdata_analytics/projects/python3/Aviation/data/dataset_aviationsafety.csv"
 val aviation_df = spark.read.option("inferSchema", true)
                            .option("header", "true")
